@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Details - FONA</title>
+  <meta content="Portfolio Details - FONA" name="description">
+  <meta content="Portfolio Details - FONA" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex flex-column justify-content-center">
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="/index.html"><i class="bi bi-house navicon"></i><span>Back to Home</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">FONA</li>
+          </ol>
+        </nav>
+        <h1>Food Nutrition Assistant</h1>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+
+            <div class="swiper-slide">
+              <img src="assets/img/fona-portfolio/detail/1.png" alt="FONA - Detail 1">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/fona-portfolio/detail/2.png" alt="FONA - Detail 2">
+            </div>
+
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <h2>Food Nutrition Assistant</h2>
+              <p>
+                Based on the Global Nutrition Report 2018, Indonesia was one of the 17 countries with three nutritional problems (stunting, wasting, and overweight). In Indonesia, many people have not yet adopted the habit of understanding AKG (Angka Kecukupan Gizi). Knowing the contribution of food or drink to daily nutritional needs can prevent us from the risk of malnutrition or disease, especially those caused by inaccurate nutritional intake from day-to-day food and drinks. Therefore, how can people calculate the calorie and nutritional composition of what they eat? How can they ensure that the foods have their daily AKG needs? These problems led us to build an application that lets users know how many nutrition and calories are in the foods and give food recommendations to help user reaches AKG. We aim to improve people's health by paying attention to their diet by calculating the nutritional composition of the foods they consume and giving cuisine recommendations based on user preferences.
+              </p>
+
+              <p>
+                We need nutrition for our body, but we rarely know how much nutrition and what foods can fulfill them. According to that situation, the problem is how to calculate the nutrition of foods that our body needs. The solution is to help other people to organize their diet to their ideal body nutrition needs. Our idea is to make an Android-based application with a machine learning model to calculate how much nutrition the user needs and give a recommendation about what foods with nutrition that is suitable for the user.
+              </p>
+
+              <p>
+                I designed and implemented a FastAPI-based data aggregation service that collects, processes, and stores information from multiple external portals such as WikiData, NCBI, BacDive, and GBIF. I built asynchronous data pipelines using Motor to efficiently handle MongoDB operations without blocking I/O, ensuring reliable performance for high-throughput workloads. My work focused on normalizing and cleaning heterogeneous data sources into a unified schema, making the data ready for downstream applications and services. I also structured the API architecture, handled error management, and maintained the project using GitHub to support version control and collaborative development.
+              </p>
+
+              <h6 class="fw-bold">Features</h6>
+              <ul>
+                <li>
+                  Allows users to take a picture of their food and then calculate its nutritional content.
+                </li>
+                <li>
+                  Allows users to track their nutritional needs.
+                </li>
+                <li>
+                  Provides food suggestions to help fulfill their nutritional requirements.
+                </li>
+              </ul>
+
+              <h6 class="fw-bold">Architecture</h6>
+              <ul>
+                <li>
+                  NestJS as the backend framework, providing a structured, scalable, and maintainable architecture for building server-side applications.
+                </li>
+                <li>
+                  PostgreSQL as the relational database, ensuring reliable data storage with strong consistency and complex query support.
+                </li>
+                <li>
+                  Google Cloud for deployment, enabling secure, flexible, and scalable hosting of backend services.
+                </li>
+                <li>
+                  GitHub for version control and collaboration, supporting efficient code management and team-based development workflows.
+                </li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong> Mobile App</li>
+                <li><strong>Client</strong> Bangkit Academy led by Google, GoTo, and Traveloka</li>
+                <li><strong>Project date</strong> December, 2023</li>
+                <li><strong>Project URL</strong> <a href="https://github.com/fikridean/FONA-Food-Nutrition-Assistant" target="_blank">https://github.com/FONA-Food-Nutrition-Assistant</a></li>
+                <li><a href="https://github.com/fikridean/FONA-Food-Nutrition-Assistant" target="_blank" class="btn-visit align-self-start">Visit Github Repo</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background mt-5">
+    <div class="container">
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://maps.app.goo.gl/qHhWttiyQXWhqdau5" target="_blank"><i class="bi bi-geo-alt"></i></a>
+        <a href="https://wa.link/r7isxq" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://mail.google.com/mail/u/0/?fs=1&to=fikdean@gmail.com&su=I%E2%80%99m+interested+in+working+with+you.&body=I%27d+like+to+work+with+you!&tf=cm" target="_blank"><i class="bi bi-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/fikridean/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/fikridean" target="_blank"><i class="bi bi-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
