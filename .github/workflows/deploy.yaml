@@ -1,4 +1,4 @@
-name: Deploy Update to VM
+name: Deploy Update Portfolio Website to VM
 
 on:
   push:
