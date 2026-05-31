@@ -22,4 +22,4 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           script: |
             cd ~
-            sudo ./deploy.sh pull
+            ./deploy.sh pull
